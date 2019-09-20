@@ -1,7 +1,5 @@
 Welcome to the NotAnymore_skip_videos wiki!
 
 Hit ctrl-shift-i to enter to use developers tools in Google Chrome
-Look at the DOM for the video ID, it should look like 'vp5b96fadb86dc9'
-Look at the DOM for the video num, it should look like 'fld_video-13'
-Select the Console tab, substitute the video ID and video num in the commands and press enter
+Copy commands in the javascript console and run 
 And you're done! The video should be skipped. Note that these steps will need to be done for each video
