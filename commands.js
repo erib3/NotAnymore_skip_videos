@@ -1,3 +1,4 @@
-document.getElementById('vp5b96fadb86dc9').classList.add('is-finished');
-document.getElementById('fld_video-13').value = "complete";
-navigate("continue")
+var videoElem = document.getElementById("video-state-sr").parentNode;
+videoElem.querySelector("div.flowplayer").classList.add('is-finished'); 
+videoElem.querySelector("input").value = "complete"; 
+navigate("continue");
